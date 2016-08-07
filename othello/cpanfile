@@ -1,0 +1,19 @@
+requires 'Mouse', '== 2.4.2';
+requires 'Path::Tiny', '== 0.094';
+
+requires 'Plack', '== 1.0039';
+requires 'Starlet', '== 0.29';
+requires 'Server::Starter', '== 0.19';
+
+requires 'Mojolicious';
+requires 'IO::Socket::SSL';
+
+requires 'DBI', '== 1.631';
+requires 'DBD::mysql', '== 4.026';
+requires 'DBIx::Sunny', '== 0.21';
+
+on 'develop' => sub {
+  requires 'B::Lint';
+  requires "Pry";
+  requires "Term::ReadLine::Gnu";
+}
