@@ -9,6 +9,52 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Module::Pluggable 0
       if 0
+  CSS-Sass-3.3.6
+    pathname: O/OC/OCBNET/CSS-Sass-3.3.6.tar.gz
+    provides:
+      CSS::Sass 3.003006
+      CSS::Sass::Value 3.003006
+      CSS::Sass::Value::Boolean 3.003006
+      CSS::Sass::Value::Color 3.003006
+      CSS::Sass::Value::Error 3.003006
+      CSS::Sass::Value::List 3.003006
+      CSS::Sass::Value::List::Comma 3.003006
+      CSS::Sass::Value::List::Space 3.003006
+      CSS::Sass::Value::Map 3.003006
+      CSS::Sass::Value::Null 3.003006
+      CSS::Sass::Value::Number 3.003006
+      CSS::Sass::Value::String 3.003006
+      CSS::Sass::Value::String::Constant 3.003006
+      CSS::Sass::Value::String::Quoted 3.003006
+      CSS::Sass::Watchdog 3.003006
+      CSS::Sass::Watchdog::Queue 3.003006
+    requirements:
+      Carp 1.01
+      Encode::Locale 0.01
+      ExtUtils::CppGuess 0.09
+      ExtUtils::MakeMaker 6.52
+      File::Slurp 0.01
+      Getopt::Long 0.01
+      List::MoreUtils 0.01
+      perl 5.008
+      strict 0
+      version 0
+      warnings 0
+  Capture-Tiny-0.44
+    pathname: D/DA/DAGOLDEN/Capture-Tiny-0.44.tar.gz
+    provides:
+      Capture::Tiny 0.44
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 6.17
+      File::Spec 0
+      File::Temp 0
+      IO::Handle 0
+      Scalar::Util 0
+      perl 5.006
+      strict 0
+      warnings 0
   Config-INI-0.025
     pathname: R/RJ/RJBS/Config-INI-0.025.tar.gz
     provides:
@@ -208,6 +254,15 @@ DISTRIBUTIONS
       base 0
       strict 0
       warnings 0
+  Encode-Locale-1.05
+    pathname: G/GA/GAAS/Encode-Locale-1.05.tar.gz
+    provides:
+      Encode::Locale 1.05
+    requirements:
+      Encode 2
+      Encode::Alias 0
+      ExtUtils::MakeMaker 0
+      perl 5.008
   Eval-Closure-0.14
     pathname: D/DO/DOY/Eval-Closure-0.14.tar.gz
     provides:
@@ -229,6 +284,14 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 6.17
       perl 5.006001
+  ExtUtils-CppGuess-0.11
+    pathname: D/DA/DAVIDO/ExtUtils-CppGuess-0.11.tar.gz
+    provides:
+      ExtUtils::CppGuess 0.11
+    requirements:
+      Capture::Tiny 0
+      ExtUtils::MakeMaker 0
+      File::Basename 0
   File-HomeDir-1.00
     pathname: A/AD/ADAMK/File-HomeDir-1.00.tar.gz
     provides:
@@ -254,6 +317,18 @@ DISTRIBUTIONS
       Mac::SystemDirectory 0.04
       Test::More 0.47
       perl 5.00503
+  File-Slurp-9999.19
+    pathname: U/UR/URI/File-Slurp-9999.19.tar.gz
+    provides:
+      File::Slurp 9999.19
+      FileSlurp_12 9999.13
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      Fcntl 0
+      POSIX 0
+      perl 5.004
   File-Which-1.21
     pathname: P/PL/PLICEASE/File-Which-1.21.tar.gz
     provides:
@@ -261,6 +336,31 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006
+  IPC-Run3-0.048
+    pathname: R/RJ/RJBS/IPC-Run3-0.048.tar.gz
+    provides:
+      IPC::Run3 0.048
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0.31
+      Time::HiRes 0
+  List-MoreUtils-0.416
+    pathname: R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
+    provides:
+      List::MoreUtils 0.416
+      List::MoreUtils::PP 0.416
+      List::MoreUtils::XS 0.416
+    requirements:
+      Carp 0
+      Exporter::Tiny 0.038
+      ExtUtils::MakeMaker 0
+      File::Basename 0
+      File::Copy 0
+      File::Path 0
+      File::Spec 0
+      IPC::Cmd 0
+      XSLoader 0.22
+      base 0
   Mac-SystemDirectory-0.06
     pathname: C/CH/CHANSEN/Mac-SystemDirectory-0.06.tar.gz
     provides:
@@ -502,6 +602,51 @@ DISTRIBUTIONS
       Pod::Simple 3.09
       Time::Local 1.2
       perl 5.010001
+  Mojolicious-Plugin-AssetPack-1.19
+    pathname: J/JH/JHTHORSEN/Mojolicious-Plugin-AssetPack-1.19.tar.gz
+    provides:
+      Mojolicious::Plugin::AssetPack 1.19
+      Mojolicious::Plugin::AssetPack::Asset undef
+      Mojolicious::Plugin::AssetPack::Asset::Null undef
+      Mojolicious::Plugin::AssetPack::Backcompat undef
+      Mojolicious::Plugin::AssetPack::Backcompat::Asset undef
+      Mojolicious::Plugin::AssetPack::Handler::Http undef
+      Mojolicious::Plugin::AssetPack::Handler::Https undef
+      Mojolicious::Plugin::AssetPack::Handler::Sprites undef
+      Mojolicious::Plugin::AssetPack::Pipe undef
+      Mojolicious::Plugin::AssetPack::Pipe::CoffeeScript undef
+      Mojolicious::Plugin::AssetPack::Pipe::Combine undef
+      Mojolicious::Plugin::AssetPack::Pipe::Css undef
+      Mojolicious::Plugin::AssetPack::Pipe::Favicon undef
+      Mojolicious::Plugin::AssetPack::Pipe::Fetch undef
+      Mojolicious::Plugin::AssetPack::Pipe::JavaScript undef
+      Mojolicious::Plugin::AssetPack::Pipe::Jpeg undef
+      Mojolicious::Plugin::AssetPack::Pipe::Less undef
+      Mojolicious::Plugin::AssetPack::Pipe::Png undef
+      Mojolicious::Plugin::AssetPack::Pipe::Reloader undef
+      Mojolicious::Plugin::AssetPack::Pipe::Riotjs undef
+      Mojolicious::Plugin::AssetPack::Pipe::Sass undef
+      Mojolicious::Plugin::AssetPack::Pipe::Vuejs undef
+      Mojolicious::Plugin::AssetPack::Preprocessor undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::CoffeeScript undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Css undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Fallback undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::JavaScript undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Jsx undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Less undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Sass undef
+      Mojolicious::Plugin::AssetPack::Preprocessor::Scss undef
+      Mojolicious::Plugin::AssetPack::Preprocessors 0.01
+      Mojolicious::Plugin::AssetPack::Preprocessors::CWD 0.01
+      Mojolicious::Plugin::AssetPack::Store undef
+      Mojolicious::Plugin::AssetPack::Util undef
+      Mojolicious::Plugin::AssetPack::Util::_chdir undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Which 1.21
+      IPC::Run3 0.048
+      Mojolicious 6.50
+      Test::More 0.88
   Mouse-2.4.2
     pathname: G/GF/GFUJI/Mouse-2.4.2.tar.gz
     provides:

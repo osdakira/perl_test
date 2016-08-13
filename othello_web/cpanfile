@@ -1,4 +1,6 @@
 requires 'Mojolicious';
+requires 'Mojolicious::Plugin::AssetPack';
+requires 'CSS::Sass';
 requires 'Mouse', '== 2.4.2';
 requires 'Path::Tiny', '== 0.094';
 requires 'DBI', '== 1.631';
