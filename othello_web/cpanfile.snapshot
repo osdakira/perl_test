@@ -615,6 +615,29 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  Perl-Tidy-20160302
+    pathname: S/SH/SHANCOCK/Perl-Tidy-20160302.tar.gz
+    provides:
+      Perl::Tidy 20160302
+      Perl::Tidy::Debugger 20160302
+      Perl::Tidy::DevNull 20160302
+      Perl::Tidy::Diagnostics 20160302
+      Perl::Tidy::FileWriter 20160302
+      Perl::Tidy::Formatter 20160302
+      Perl::Tidy::HtmlWriter 20160302
+      Perl::Tidy::IOScalar 20160302
+      Perl::Tidy::IOScalarArray 20160302
+      Perl::Tidy::IndentationItem 20160302
+      Perl::Tidy::LineBuffer 20160302
+      Perl::Tidy::LineSink 20160302
+      Perl::Tidy::LineSource 20160302
+      Perl::Tidy::Logger 20160302
+      Perl::Tidy::Tokenizer 20160302
+      Perl::Tidy::VerticalAligner 20160302
+      Perl::Tidy::VerticalAligner::Alignment 20160302
+      Perl::Tidy::VerticalAligner::Line 20160302
+    requirements:
+      ExtUtils::MakeMaker 0
   PerlIO-utf8_strict-0.006
     pathname: L/LE/LEONT/PerlIO-utf8_strict-0.006.tar.gz
     provides:
@@ -715,6 +738,16 @@ DISTRIBUTIONS
       Scalar::Util 0
       strict 0
       warnings 0
+  Term-ReadLine-Gnu-1.34
+    pathname: H/HA/HAYASHI/Term-ReadLine-Gnu-1.34.tar.gz
+    provides:
+      Term::ReadLine::Gnu 1.34
+      Term::ReadLine::Gnu::AU 1.34
+      Term::ReadLine::Gnu::Var 1.34
+      Term::ReadLine::Gnu::XS 1.34
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
   Test-Deep-1.120
     pathname: R/RJ/RJBS/Test-Deep-1.120.tar.gz
     provides:

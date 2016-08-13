@@ -5,6 +5,8 @@ requires 'DBI', '== 1.631';
 requires 'DBD::mysql', '== 4.026';
 
 on 'develop' => sub {
-  requires 'B::Lint';
+  requires "B::Lint";
   requires "Pry";
+  requires "Term::ReadLine::Gnu";
+  requires "Perl::Tidy";
 }
