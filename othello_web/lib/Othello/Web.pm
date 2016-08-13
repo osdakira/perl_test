@@ -8,6 +8,9 @@ sub startup {
   # Documentation browser under "/perldoc"
   $self->plugin('PODRenderer');
 
+  $self->plugin('AssetPack' => {pipes => [qw/Css Sass/]});
+  $self->asset->process('base.css' => ('sass/base.sass'));
+
   # Router
   my $r = $self->routes;
 
