@@ -1,0 +1,1 @@
+plenv exec carton exec morbo script/othello_web
