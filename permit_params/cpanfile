@@ -1,0 +1,8 @@
+requires "List::Compare";
+
+on 'develop' => sub {
+    requires "B::Lint";
+    requires "Reply";
+    requires "Term::ReadLine::Gnu";
+    requires "Perl::Tidy";
+}
