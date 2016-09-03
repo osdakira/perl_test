@@ -19,7 +19,7 @@ subtest "permit keys" => sub {
         name => "hoge",
     } or diag explain $res;
 
-    my $res = permit_params($params, [qw(id name is_enabled)]);
+    $res = permit_params($params, [qw(id name is_enabled)]);
     is_deeply $res, \{
         id => 1,
         name => "hoge",
