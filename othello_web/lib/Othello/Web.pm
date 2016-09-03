@@ -10,6 +10,7 @@ sub startup {
 
   $self->plugin('AssetPack' => {pipes => [qw/Css Sass/]});
   $self->asset->process('base.css' => ('sass/base.sass'));
+  # $self->secrets(["secrets_key"]);
 
   # Router
   my $r = $self->routes;
