@@ -15,7 +15,7 @@ sub permit_params {
     if(@unpermited_params) {
         carp "Unpermitted params: " . join(",", @unpermited_params);
     }
-    return \{%{$params}{$lc->get_intersection}};
+    return \{%$params{$lc->get_intersection}};
 }
 
 1;
