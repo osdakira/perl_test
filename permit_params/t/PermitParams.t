@@ -35,4 +35,17 @@ subtest "not in params" => sub {
     } or diag explain $res;
 };
 
+subtest "no scalar params" => sub {
+    my $params = {
+        ids => [1, 2],
+        name => "hoge"
+    };
+
+    my $res = permit_params($params, [qw(ids name)]);
+    is_deeply $res, \{
+        ids => [1, 2],
+        name => "hoge",
+    } or diag explain $res;
+};
+
 done_testing();
