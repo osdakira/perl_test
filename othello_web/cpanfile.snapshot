@@ -55,6 +55,15 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Class-Accessor-0.34
+    pathname: K/KA/KASEI/Class-Accessor-0.34.tar.gz
+    provides:
+      Class::Accessor 0.34
+      Class::Accessor::Fast 0.34
+      Class::Accessor::Faster 0.34
+    requirements:
+      ExtUtils::MakeMaker 0
+      base 1.01
   Config-INI-0.025
     pathname: R/RJ/RJBS/Config-INI-0.025.tar.gz
     provides:
@@ -77,6 +86,14 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       strict 0
       vars 0
+  Config-YAML-1.42
+    pathname: M/MD/MDXI/Config-YAML-1.42.tar.gz
+    provides:
+      Config::YAML 1.42
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test::More 0
+      YAML 0.35
   DBD-mysql-4.026
     pathname: C/CA/CAPTTOFU/DBD-mysql-4.026.tar.gz
     provides:
@@ -344,6 +361,19 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.31
       Time::HiRes 0
+  List-AllUtils-0.11
+    pathname: D/DR/DROLSKY/List-AllUtils-0.11.tar.gz
+    provides:
+      List::AllUtils 0.11
+    requirements:
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      List::SomeUtils 0.50
+      List::Util 1.45
+      List::UtilsBy 0.10
+      base 0
+      strict 0
+      warnings 0
   List-MoreUtils-0.416
     pathname: R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
     provides:
@@ -361,6 +391,39 @@ DISTRIBUTIONS
       IPC::Cmd 0
       XSLoader 0.22
       base 0
+  List-SomeUtils-0.53
+    pathname: D/DR/DROLSKY/List-SomeUtils-0.53.tar.gz
+    provides:
+      List::SomeUtils 0.53
+      List::SomeUtils::PP 0.53
+    requirements:
+      Carp 0
+      Exporter 0
+      ExtUtils::MakeMaker 0
+      List::SomeUtils::XS 0.52
+      Module::Implementation 0
+      Text::ParseWords 0
+      perl 5.006
+      strict 0
+      vars 0
+      warnings 0
+  List-SomeUtils-XS-0.52
+    pathname: D/DR/DROLSKY/List-SomeUtils-XS-0.52.tar.gz
+    provides:
+      List::SomeUtils::XS 0.52
+    requirements:
+      ExtUtils::MakeMaker 0
+      XSLoader 0
+      perl 5.006
+      strict 0
+      warnings 0
+  List-UtilsBy-0.10
+    pathname: P/PE/PEVANS/List-UtilsBy-0.10.tar.gz
+    provides:
+      List::UtilsBy 0.10
+    requirements:
+      Exporter 5.57
+      Module::Build 0.4004
   Mac-SystemDirectory-0.06
     pathname: C/CH/CHANSEN/Mac-SystemDirectory-0.06.tar.gz
     provides:
@@ -687,6 +750,18 @@ DISTRIBUTIONS
       Scalar::Util 1.14
       XSLoader 0.02
       perl 5.008005
+  Object-Container-0.14
+    pathname: T/TY/TYPESTER/Object-Container-0.14.tar.gz
+    provides:
+      Object::Container 0.14
+    requirements:
+      Carp 0
+      Class::Accessor::Fast 0
+      ExtUtils::MakeMaker 6.42
+      Filter::Util::Call 0
+      Test::More 0.88
+      Test::Requires 0
+      parent 0
   Package-Stash-0.37
     pathname: D/DO/DOY/Package-Stash-0.37.tar.gz
     provides:
@@ -973,3 +1048,31 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  YAML-1.18
+    pathname: T/TI/TINITA/YAML-1.18.tar.gz
+    provides:
+      YAML 1.18
+      YAML::Any 1.18
+      YAML::Dumper undef
+      YAML::Dumper::Base undef
+      YAML::Error undef
+      YAML::Loader undef
+      YAML::Loader::Base undef
+      YAML::Marshall undef
+      YAML::Mo undef
+      YAML::Node undef
+      YAML::Tag undef
+      YAML::Type::blessed undef
+      YAML::Type::code undef
+      YAML::Type::glob undef
+      YAML::Type::ref undef
+      YAML::Type::regexp undef
+      YAML::Type::undef undef
+      YAML::Types undef
+      YAML::Warning undef
+      yaml_mapping undef
+      yaml_scalar undef
+      yaml_sequence undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      perl 5.008001
