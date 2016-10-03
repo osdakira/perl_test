@@ -1,0 +1,6 @@
+requires "List::AllUtils";
+requires "B::Lint";
+requires "Reply";
+requires "Term::ReadLine::Gnu";
+requires "Object::Container";
+requires "Config::YAML";
