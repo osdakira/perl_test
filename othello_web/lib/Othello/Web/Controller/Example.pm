@@ -18,7 +18,7 @@ sub welcome {
 sub post_test {
     my $self = shift;
     my $params = $self->req->params->to_hash;
-    $self->app->log->debug($params);
+    $self->app->log->debug($self->app->dumper($params));
     $self->redirect_to('/');
 }
 
