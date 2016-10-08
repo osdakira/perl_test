@@ -12,6 +12,9 @@ sub startup {
   $self->asset->process('base.css' => ('sass/base.sass'));
   # $self->secrets(["secrets_key"]);
 
+  $self->plugin('DefaultHelpers');
+  $self->plugin('Mojolicious::Plugin::Config');
+
   # Router
   my $r = $self->routes;
 

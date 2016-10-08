@@ -18,3 +18,5 @@ learn more, you can also browse through the documentation
     <input type="text" name="text-input" />
     <input type="submit" />
 </form>
+
+<%= config 'test' %>
