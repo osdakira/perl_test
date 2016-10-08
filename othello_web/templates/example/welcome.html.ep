@@ -13,3 +13,8 @@ learn more, you can also browse through the documentation
 <br>
 
 <div class="hello"> Hello World!</div>
+
+<form action="/post_test" method="post">
+    <input type="text" name="text-input" />
+    <input type="submit" />
+</form>
