@@ -1,5 +1,12 @@
 # carton snapshot format: version 1.0
 DISTRIBUTIONS
+  Algorithm-Diff-1.1903
+    pathname: T/TY/TYEMQ/Algorithm-Diff-1.1903.tar.gz
+    provides:
+      Algorithm::Diff 1.1903
+      Algorithm::Diff::_impl 1.1903
+    requirements:
+      ExtUtils::MakeMaker 0
   B-Lint-1.20
     pathname: R/RJ/RJBS/B-Lint-1.20.tar.gz
     provides:
@@ -94,6 +101,14 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0
       YAML 0.35
+  Cpanel-JSON-XS-4.02
+    pathname: R/RU/RURBAN/Cpanel-JSON-XS-4.02.tar.gz
+    provides:
+      Cpanel::JSON::XS 4.02
+      Cpanel::JSON::XS::Type undef
+    requirements:
+      ExtUtils::MakeMaker 0
+      Pod::Text 2.08
   DBD-mysql-4.026
     pathname: C/CA/CAPTTOFU/DBD-mysql-4.026.tar.gz
     provides:
@@ -216,6 +231,13 @@ DISTRIBUTIONS
       Sub::Install 0.921
       strict 0
       warnings 0
+  Debug-Trace-0.05
+    pathname: J/JV/JV/Debug-Trace-0.05.tar.gz
+    provides:
+      Debug::Trace 0.05
+    requirements:
+      Data::Dumper 2.101
+      ExtUtils::MakeMaker 0
   Devel-Caller-2.06
     pathname: R/RC/RCLAMP/Devel-Caller-2.06.tar.gz
     provides:
@@ -246,6 +268,31 @@ DISTRIBUTIONS
       Devel::Caller 0.03
       ExtUtils::MakeMaker 0
       Test::More 0
+  Devel-NYTProf-6.04
+    pathname: T/TI/TIMB/Devel-NYTProf-6.04.tar.gz
+    provides:
+      Devel::NYTProf 6.04
+      Devel::NYTProf::Apache 4.00
+      Devel::NYTProf::Constants undef
+      Devel::NYTProf::Core 6.04
+      Devel::NYTProf::Data 4.02
+      Devel::NYTProf::FileHandle undef
+      Devel::NYTProf::FileInfo undef
+      Devel::NYTProf::ReadStream 4.00
+      Devel::NYTProf::Reader 4.06
+      Devel::NYTProf::Run undef
+      Devel::NYTProf::SubCallInfo undef
+      Devel::NYTProf::SubInfo undef
+      Devel::NYTProf::Util 4.00
+    requirements:
+      ExtUtils::MakeMaker 0
+      File::Which 1.09
+      Getopt::Long 0
+      JSON::MaybeXS 0
+      List::Util 0
+      Test::Differences 0.60
+      Test::More 0.84
+      XSLoader 0
   Devel-StackTrace-2.01
     pathname: D/DR/DROLSKY/Devel-StackTrace-2.01.tar.gz
     provides:
@@ -361,6 +408,17 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Test::More 0.31
       Time::HiRes 0
+  JSON-MaybeXS-1.003010
+    pathname: H/HA/HAARG/JSON-MaybeXS-1.003010.tar.gz
+    provides:
+      JSON::MaybeXS 1.003010
+    requirements:
+      Carp 0
+      Cpanel::JSON::XS 2.3310
+      ExtUtils::MakeMaker 0
+      JSON::PP 2.27300
+      Scalar::Util 0
+      perl 5.006
   List-AllUtils-0.11
     pathname: D/DR/DROLSKY/List-AllUtils-0.11.tar.gz
     provides:
@@ -1027,6 +1085,15 @@ DISTRIBUTIONS
       List::Util 1.09
       Scalar::Util 1.09
       Test::Builder 0
+  Test-Differences-0.64
+    pathname: D/DC/DCANTRELL/Test-Differences-0.64.tar.gz
+    provides:
+      Test::Differences 0.64
+    requirements:
+      Capture::Tiny 0.24
+      Data::Dumper 2.126
+      Test::More 0.88
+      Text::Diff 0.35
   Test-Requires-0.10
     pathname: T/TO/TOKUHIROM/Test-Requires-0.10.tar.gz
     provides:
@@ -1035,6 +1102,18 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 6.64
       Test::Builder::Module 0
       Test::More 0.47
+      perl 5.006
+  Text-Diff-1.45
+    pathname: N/NE/NEILB/Text-Diff-1.45.tar.gz
+    provides:
+      Text::Diff 1.45
+      Text::Diff::Base 1.45
+      Text::Diff::Config 1.44
+      Text::Diff::Table 1.44
+    requirements:
+      Algorithm::Diff 1.19
+      Exporter 0
+      ExtUtils::MakeMaker 0
       perl 5.006
   Try-Tiny-0.24
     pathname: E/ET/ETHER/Try-Tiny-0.24.tar.gz

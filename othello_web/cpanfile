@@ -10,8 +10,10 @@ requires "Object::Container";
 requires "Config::YAML";
 
 on 'develop' => sub {
-  requires "B::Lint";
-  requires "Pry";
-  requires "Term::ReadLine::Gnu";
-  requires "Perl::Tidy";
+    requires "B::Lint";
+    requires "Pry";
+    requires "Term::ReadLine::Gnu";
+    requires "Perl::Tidy";
+    requires "Devel::NYTProf";
+    requires "Devel::Trace ";
 }
